@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\OneDrive\\Desktop\\Terraform"
+		},
+		{
+			"name": "PartsUnlimitedE2E",
+			"path": "..\\git projects\\PartsUnlimitedE2E"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
