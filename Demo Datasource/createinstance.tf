@@ -6,3 +6,4 @@ resource "aws_instance" "MyFirstInstnace" {
   tags = {
     Name = "custom_instance"
   }
+}
