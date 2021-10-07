@@ -11,7 +11,7 @@ resource "aws_instance" "MyFirstInstnace" {
   availability_zone = "us-east-2a"
   key_name      = aws_key_pair.levelup_key.key_name
   vpc_security_group_ids = [aws_security_group.allow-levelup-ssh.id]
-  subnet_id = aws_subnet.levelupvpc-public-1.id
+  subnet_id = aws_subnet.levelup_vpc-public-1.id
 
   tags = {
     Name = "custom_instance"
