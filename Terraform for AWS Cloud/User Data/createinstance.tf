@@ -10,7 +10,7 @@ resource "aws_instance" "MyFirstInstnace" {
   instance_type = "t2.micro"
   availability_zone = "us-east-2a"
   key_name      = aws_key_pair.levelup_key.key_name
-
+  
   user_data = file("installapache.sh")
 
   tags = {
