@@ -7,8 +7,8 @@ resource "aws_launch_configuration" "levelup-launchconfig" {
 }
 
 #Generate Key
-resource "aws_key_pair" "levelup_key" {
-    key_name = "levelup_key"
+resource "aws_key1_pair" "levelup_key1" {
+    key_name = "levelup_key1"
     public_key = file(var.PATH_TO_PUBLIC_KEY)
 }
 
